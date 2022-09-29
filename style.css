@@ -1,0 +1,72 @@
+/*resets and base*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: content-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Permanent Marker", cursive;
+}
+
+/*container*/
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/*header*/
+.header {
+  background-color: gray;
+  border: 3px solid;
+}
+
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo {
+  color: black;
+}
+
+.navbar-collapse {
+text-align: center;
+}
+
+.nav-item {
+  border: 2px solid;
+}
+
+.nav-item:nth-child(3) {
+  border-bottom: 4px solid;
+}
+/*main*/
+
+.main_title {
+  display: flex;
+  justify-content: center;
+  margin: 20px 30px;
+}
+
+.content {
+  background-color: grey;
+}
+.content_title {
+  display: flex;
+  justify-content: center;
+}
+.content_text {
+  padding: 10px 10px;
+}
+
+
+@media (max-width:576px) {
+  .content {
+    margin: 0 20px;
+  }
+}
